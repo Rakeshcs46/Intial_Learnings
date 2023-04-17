@@ -113,5 +113,8 @@ my_users
 [{'name': 'SRK'}, {'name': 'TonyStark'}]"""
 
 
+#solved 10  hacker rank basic questions
+
+
 
 
