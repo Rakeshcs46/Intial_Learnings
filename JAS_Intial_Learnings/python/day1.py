@@ -109,11 +109,11 @@ my_data
 user_1 = {"name": "SRK"}
 user_2 = {"name": "Tony Stark"}
 my_users = [user_1, user_2]
-my_users
-[{'name': 'SRK'}, {'name': 'TonyStark'}]"""
 
 
 #solved 10  hacker rank basic questions
+
+
 
 
 
