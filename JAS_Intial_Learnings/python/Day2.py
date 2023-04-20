@@ -116,3 +116,8 @@ Tommy = Dog("Tommy")
 # Accessing class methods
 Rodger.speak()
 Tommy.speak()"""
+
+s =  '''mnopqr'''
+i = ''' m '''''
+while i in s:
+   print('i', end= '' '')

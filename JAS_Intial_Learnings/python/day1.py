@@ -77,7 +77,7 @@ print(newlist)"""
 # Dictories and Lists
 
 
-"""per_value = [900, 342, 542, 190]
+'''per_value = [900, 342, 542, 190]
 sum(per_value)
 per_value.append(39.99)
 print(per_value)
@@ -108,13 +108,7 @@ my_data
 {'name': 'Rakesh', 'location': 'kenegri ', 'occ': 'loader'}
 user_1 = {"name": "SRK"}
 user_2 = {"name": "Tony Stark"}
-my_users = [user_1, user_2]
+my_users = [user_1, user_2]'''
 
-
-#solved 10  hacker rank basic questions
-
-
-
-
-
-
+for i in range(5):
+    print(i, end='' '')
