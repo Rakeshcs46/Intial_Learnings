@@ -34,7 +34,7 @@ def factorial():
             fact0 *= i
     print(fact0)
 result  = factorial()
-print(result)
+print(result)'''
 
 # using funcn and recuricosn  
 def rec(n):
@@ -42,4 +42,5 @@ def rec(n):
         return 1 
     else:
         return n  * rec(n-1)
-print(rec(10))'''
+for i in range(10):
+    print(rec(5), end =" ")
