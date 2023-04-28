@@ -15,23 +15,6 @@ print(2**2)
 # String -  Sequence of characters in called strings
 print("rakesh")
 
-# reverse the list using slice operator
-''' # original list
-my_name = "Rakesh"
-# reversing original list
-my_name_reversed = my_numbers[::-1]
-print(my_name_reversed)'''
-
-
-# reverse using function
-def reverse(s):
-    result = " " 
-    for i in s:
-        result = i+result 
-        print(result)
-    return result 
-s = ("Rakesh")
-print(reverse(s)
 
 # created a simple program for variables
 i = int(input())

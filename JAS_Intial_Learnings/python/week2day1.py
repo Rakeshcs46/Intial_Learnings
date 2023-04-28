@@ -1,6 +1,6 @@
+#loops , Functions , modifiers 
 import math 
 # #factorial using for loops 
-
 # n = int(input("Enter the no"))
 # fact = 1 
 # if n < 0:
