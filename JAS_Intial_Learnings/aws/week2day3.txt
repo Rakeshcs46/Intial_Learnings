@@ -1,0 +1,440 @@
+What is “Cloud Computing”?
+Cloud computing has become one of the most discussed IT paradigms of recent years. It builds on many of the advances
+in the IT industry over the past decade and presents significant opportunities for organizations to shorten time to
+market and reduce costs. With cloud computing, organizations can consume shared computing and storage resources
+rather than building, operating, and improving infrastructure on their own. The speed of change in markets creates
+significant pressure on the enterprise IT infrastructure to adapt and deliver. Cloud computing provides fresh solutions to
+address these changes.
+, “Cloud computing is a style of computing where scalable and elastic ITenabled capabilities are delivered as a service to external customers using Internet technologies.
+
+Amazon has a long history of using a decentralized IT infrastructure. This arrangement enabled our development teams
+to access compute and storage resources on demand, and it has increased overall productivity and agility. By 2005,
+Amazon had spent over a decade and millions of dollars building and managing the large-scale, reliable, and efficient IT
+infrastructure that powered one of the world’s largest online retail platforms
+
+
+In the traditional IT organization scalability and elasticity were often equated with investment and infrastructure. In the
+cloud, scalability and elasticity provide opportunity for savings and improved ROI. AWS uses the term elastic to describe
+the ability to scale computing resources up and down easily, with minimal friction. Elasticity helps you avoid provisioning
+resources up front for projects with variable consumption rates or short lifetimes. Instead of acquiring hardware, setting
+it up, and maintaining it in order to allocate resources to your applications, you use AWS to allocate resources using
+simple API calls.
+
+
+
+Imagine what would happen to a traditional IT shop if traffic to an application doubled or tripled in a short period. For
+example, during benefits open enrollment periods, many corporate users generate significant traffic to internal
+applications. You need to be confident that your existing infrastructure can handle a spike in traffic, and that the spike
+will not interfere with normal business operations. Elastic Load Balancing and Auto Scaling can automatically scale your
+AWS cloud-based resources up to meet unexpected demand, and then scale those resources down as demand
+decreases. 
+
+Features 
+
+Auto Scaling
+Amazon WorkSpaces
+Elastic Load Balancing
+
+Amazon Virtual Private Cloud (Amazon VPC)
+
+Amazon Route 53 
+
+WS Direct Connect
+
+
+IaaS stands for Infrastructure as a Service. It provides users with the capability to
+provision processing, storage, and network connectivity on demand. Using this service
+model, the customers can develop their own applications on these resources.
+PaaS
+PaaS stands for Platform as a Service. Here, the service provider provides various
+services like databases, queues, workflow engines, e-mails, etc. to their customers. The
+customer can then use these components for building their own applications. The services,
+availability of resources and data backup are handled by the service provider that helps
+the customers to focus more on their application's functionality.
+SaaS
+SaaS stands for Software as a Service. As the name suggests, here the third-party
+providers provide end-user applications to their customers with some administrative
+capability at the application level, such as the ability to create and manage their users.
+Also some level of customizability is possible such as the customers can use their own
+corporate logos, colors, etc
+
+AdvantagesofCloudComputing
+Cost-Efficient
+Reliability
+ Unlimited Storage
+Backup & Recovery
+Easy Access to Information:
+
+This is the basic structure of AWS EC2, where EC2 stands for Elastic Compute Cloud. EC2
+allow users to use virtual machines of different configurations as per their requirement. It
+allows various configuration options, mapping of individual server, various pricing options,
+etc. We will discuss these in detail in AWS Products section. Following is the diagrammatic
+representation of the architecture.
+
+
+AWS Wavelength
+Zone
+VPC
+Low latency
+Low latency
+Servers
+Subnet
+5GIAM Overview
+AWS Identity and Access Management (IAM)
+IAM Principals must be authenticated to
+send requests (with a few exceptions)
+AWS Account
+RunInstances
+User
+Role
+AWS IAM
+Federated Application
+User
+A principal is a person or application that
+can make a request for an action or
+operation on an AWS resource
+Console
+EC2
+GetBucket
+S3
+CLI
+CreateUser
+API
+AWS determines whether
+to authorize the request
+(allow/deny)
+
+Identity-
+based policy
+Resource-
+based policy
+IAM
+Actions are
+authorized
+on AWS
+resourcesIAM Authentication Methods
+John is authenticated and
+can perform operations in
+the console
+Username: Raki
+Password: ********
+MFA Token: (optional)
+John
+CLI
+AWS IAM
+AWS Management
+Console
+Access key ID: AKIAXP4J2EKUQIQJTJLV(random)
+Secret access key:
+wiMjGpewNMRHFi9ud0pJwh7NBX4F6i(random)
+AWS IAM
+API
+
+Access keys are used for
+programmatic access
+AWS APICreate an IAM User and
+Group
+Amazon Virtual Private Cloud
+(VPC)
+Amazon VPC
+A VPC is a logically isolated portion
+of the AWS cloud within a region
+Region
+VPC
+Main Route Table
+Availability Zone
+Subnets are
+created within AZs
+Public subnet
+EC2 Instance
+Availability Zone
+Router Internet
+gateway
+Private subnet
+EC2 Instance
+You can launch EC2 instances
+into your VPC subnets
+
+Destination Target
+10.0.0.0/16 Local
+0.0.0.0/0 igw-id
+The route table is used
+to configure the VPC
+router
+An Internet Gateway is
+used to connect to the
+InternetAmazon VPC
+Each VPC has a different
+block of IP addresses
+CIDR stands for Classless
+Interdomain Routing
+Region
+VPC
+VPC
+CIDR 10.0.0.0/16
+CIDR 10.1.0.0/16
+Availability Zone Availability Zone Availability Zone Availability Zone
+Public subnet Public subnet Public subnet Public subnet
+10.0.0.0/20 10.0.16.0/20 10.1.0.0/20 10.1.16.0/20
+Private subnet Private subnet Private subnet Private subnet
+10.0.32.0/20 10.0.48.0/20 10.1.32.0/20 10.1.48.0/20
+Each subnet has a block of IP addresses
+from the CIDR block
+
+You can create multiple VPCs
+within each regionAWS Public and Private Services
+Private services can have
+public IP addresses but
+exist within the VPC
+AWS Cloud
+VPC
+Availability Zone
+Amazon DynamoDB
+Public subnet
+Amazon S3
+EC2 Instance
+Public services have public
+IP addresses / endpoints
+Public Internet
+Internet
+gateway
+Private subnet
+EC2 Instance
+Amazon Route 53 Amazon CloudFront
+
+Amazon RDS
+Amazon Elastic File SystemCreate a Custom VPC
+Custom VPC
+MyVPC
+CIDR 10.0.0.0/16
+us-east-1a
+Main Route Table
+us-east-1b
+Public-1A
+Public-1B
+10.0.2.0/24
+10.0.1.0/24
+Destination Target
+10.0.0.0/16 Local
+0.0.0.0/0 igw-id
+Private-RT Route Table
+Private-1A
+Private-1B
+10.0.4.0/24
+10.0.3.0/24
+MyIGW
+
+Destination Target
+10.0.0.0/16 LocalSecurity Groups and
+Network ACLs
+Stateful vs Stateless Firewalls
+PROTOCOL SOURCE IP
+DESTINATION IP SOURCE PORT
+HTTP 10.1.1.1 10.2.1.10 65188 80
+HTTP 10.2.1.10 10.1.1.1 80 65188
+Src Port: 80 Dest Port: 65188
+Dest Port: 80 Src Port: 65188
+Web Server (10.2.1.10)
+A stateful firewall
+allows the return
+traffic automatically
+
+Firewall
+DESTINATION PORT
+Client
+(10.1.1.1)
+A stateless firewall
+checks for an allow
+rule for both
+connectionsSecurity Groups and Network ACLs
+VPC
+Security Groups apply at the Instance level
+Availability Zone
+Private subnet
+Security Groups
+can be applied
+to instances in
+any subnet
+Public subnet
+Security
+Group B
+Security
+Group A
+Network ACL
+Network ACL
+Availability Zone
+Private subnet
+Public subnet Security
+Group A
+Security
+Group B
+Security
+Group A
+
+Network ACL
+NACLs apply at the
+subnet level
+Router
+Network ACL
+NACLs apply only to
+traffic entering /
+exiting the subnetSecurity Groups & Network Access Control Lists (NACLs)
+Security Group Network ACL
+Operates at the instance (interface) level Operates at the subnet level
+Supports allow rules only Supports allow and deny rules
+Stateful Stateless
+Evaluates all rules Processes rules in order
+Applies to an instance only if associated Automatically applies to all instances in
+with a group the subnets its associated with
+Create a Security Group
+Configure the AWS CLI
+SECTION 6
+Amazon EC2, Auto Scaling, and
+Load Balancing
+Amazon EC2 Overview
+Amazon Elastic Compute Cloud (EC2)
+EC2 instances run
+Windows, Linux, or
+MacOS
+EC2 Instance EC2 Instance EC2 Instance
+EC2 hosts are
+managed by AWS
+Website
+Windows OS
+EC2 Instance EC2 Instance EC2 Instance
+EC2 Instance EC2 Instance EC2 Instance
+EC2 Host Server
+
+An EC2 instance is a
+virtual server
+A selection of instance types
+come with varying combinations
+of CPU, memory, storage and
+networkingPublic, Private, and Elastic IP addresses
+Type Description
+Public IP address Lost when the instance is stopped
+Used in Public Subnets
+No charge
+Associated with a private IP address on the instance
+Cannot be moved between instances
+Private IP address
+Retained when the instance is stopped
+Used in Public and Private Subnets
+Elastic IP address
+Static Public IP address
+You are charged if not used
+Associated with a private IP address on the instance
+Can be moved between instances and Elastic Network Adapters
+Public Subnets
+Region
+Public Subnet Route Table
+VPC
+Availability Zone
+Public subnet
+Public-IP or
+Elastic IP
+EC2 Instance
+Private subnet
+
+Internet
+gateway
+Destination Target
+172.31.0.0/16 Local
+0.0.0.0/0 igw-idPrivate Subnets
+NAT = Network Address Translation
+NAT Gateway forwards
+connections to the Internet
+Region
+Public Subnet Route Table
+VPC
+Availability Zone
+Public subnet
+Private subnet
+NAT
+gateway
+Elastic-IP
+Target
+172.31.0.0/16 Local
+0.0.0.0/0 igw-id
+Private-IP
+Private-IP
+EC2 Instance
+
+Destination
+Internet
+gateway
+Private Subnet Route Table
+Destination Target
+172.31.0.0/16 Local
+0.0.0.0/0 nat-gateway-idLaunching Amazon EC2
+Instances
+Launching an EC2 Instance
+Select an instance type
+EC2 Instance
+An AMI defines
+the configuration
+of the instance
+A snapshot is a point-in-
+time backup of an instance
+Family Type vCPUs Memory (GiB)
+General purpose t2.micro 1 1
+2 5.25
+Compute optimized c5n.large
+Amazon Machine Image
+(AMI)
+Linux
+Microsoft
+Windows
+EBS Snapshot
+Memory optimized r5ad.large 2 16
+Storage optimized d2.xlarge 30.5
+GPU instances g2.2xlarge 8
+You can customize your
+instance and create a
+custom AMI
+Customized AMI
+
+4
+The instance type
+defines the hardware
+profile (and cost)
+15Connecting to Amazon EC2
+Access Keys and IAM Roles
+with EC2
+Using Access Keys with Amazon EC2
+AWS Cloud
+The access key is
+associated with an
+IAM account
+VPC
+Availability Zone
+Public subnet
+S3 Bucket
+IAM User
+EC2 Instance
+Private subnet
+The access key will
+use any permissions
+assigned to the IAM
+user
+
+Policy
+AWS CLI configured
+with access keysUsing Roles with Amazon EC2
+AWS Cloud
+VPC
+The role is assumed
+by the EC2 instance
+S3 Bucket
+IAM Role
+Availability Zone
+Public subnet
+EC2 Instance
+Private subnet
+Policy
+
+Credentials are not
+stored on the instancePractice with Access Keys
+and IAM Roles
+Create a Website with User Data
+

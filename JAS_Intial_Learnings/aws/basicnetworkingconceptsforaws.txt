@@ -1,0 +1,43 @@
+#Topics
+Repeaters – Bridges – Routers – Gateway – Routing algorithms – TCP/IP – Overview – Network
+layer – Transport and application layers of TCP/IP – DNS – SMTP – HTTP – WWW 
+
+1. Repeater – A repeater operates at the physical layer. Its job is to regenerate the signal
+over the same network before the signal becomes too weak or corrupted so as to extend
+the length to which the signal can be transmitted over the same network.
+
+Hub as a multi-port repeater can be connected in a hierarchical manner to form a
+single LAN with many nodes
+
+A bridge operates at data link layer. A bridge is a repeater, with add
+on functionality of filtering content by reading the MAC addresses of source
+and destination
+The device that can be used to interconnect two separate LANs is known as a bridg
+
+A switch is a multi port bridge with a buffer and a design that can
+boost its efficiency(large number of ports imply less traffic) and performance
+
+Comparison between a switch and a hub
+Although a hub and a switch apparently look similar, they have significant differences.
+As shown in Fig. , both can be used to realize physical star topology, the hubs works like
+a logical bus, because the same signal is repeated on all the ports. On the other hand, a
+switch functions like a logical star with the possibility of the communication of separate
+signals between any pair of port lines
+
+A router is a device like a switch that routes data packets based on
+their IP addresses. Router is mainly a Network Layer device
+
+Simple Mail Transfer Protocol (SMTP) is an Internet standard for electronic mail (email) transmission across Internet Protocol (IP) networks.
+
+Telnet is a simple remote terminal protocol that provides a remote log-on capability,
+which enables a user to log on to a remote computer and behaves as if it is directly
+connected to it. The following three basic services are offered by TELNET
+
+File Transfer Protocol (FTP) is a TCP/IP client -server application for transfer files
+between two remote machines through internet
+
+HTTP (HyperText Transfer Protocol)
+HTTP is a request/response standard between a client and a server
+
+Key advantage of DNS is the use of a hierarchical naming system and the use of distributed
+database to store the huge amount of address information in many servers
