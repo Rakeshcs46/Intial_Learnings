@@ -13,21 +13,21 @@ for combination  in combinations:
     print(combination)
 ## will give out possbile combination  from the given list
 
-'''def naive_grouper(inputs, n):
+def naive_grouper(inputs, n):
         num_groups = len(inputs) // n
-        return [tuple(inputs[i * n:(i + 1) * n]) for i in range(num_groups)]'''
+        return [tuple(inputs[i * n:(i + 1) * n]) for i in range(num_groups)]
 
 
 
 ##functions and  objects
-''' def function(arguments):
+def function(arguments):
 
 
-    body of the function
-    return the return value or expression
-class my_class:
+   # body of the function
+   # return the return value or expression
+    class my_class:
 
-    def method1(self):
+     def method1(self):
         return "Hello World"
     def method2(self, methodToRun):
         result = methodToRun()
@@ -63,14 +63,14 @@ def accumulate(iterable, func=operator.add, *, initial=None):
     for element in it:
         total = func(total, element)
         yield total
-         Keyword def: This is the keyword used to say that a function will be defined now, and the next word that is there, is the function name.
+        #  Keyword def: This is the keyword used to say that a function will be defined now, and the next word that is there, is the function name.
 
-Function name: This is the name that is used to identify the function. The function name comes after the def keyword. Function names have to be a single word. PEP8, which is a style guide for Python, recommends that in case multiple words are used, they should be in lowercase and they should be separated with an underscore. In the example above, add_two_numbers is the parameter name.
-parameter list: Parameter list are place holders that define the parameters that go into the function. The parameters help to generalise the transformation/computation/task that is needed to be done. In Python, parameters are enclosed in parentheses. In the example above, the parameters are num1and num2. You can pass as many parameters as needed to a function.
-Function docstrings: These are optional constructs that provide a convenient way for associated documentation to the corresponding function. Docstrings are enclosed by triple quotes 
-Function returns: Python functions returns a value. You can define what to return by the return keyword. In the example above, the function returns result. In case you do not define a return value, the function will return None.'''
+# Function name: This is the name that is used to identify the function. The function name comes after the def keyword. Function names have to be a single word. PEP8, which is a style guide for Python, recommends that in case multiple words are used, they should be in lowercase and they should be separated with an underscore. In the example above, add_two_numbers is the parameter name.
+# parameter list: Parameter list are place holders that define the parameters that go into the function. The parameters help to generalise the transformation/computation/task that is needed to be done. In Python, parameters are enclosed in parentheses. In the example above, the parameters are num1and num2. You can pass as many parameters as needed to a function.
+# Function docstrings: These are optional constructs that provide a convenient way for associated documentation to the corresponding function. Docstrings are enclosed by triple quotes 
+# Function returns: Python functions returns a value. You can define what to return by the return keyword. In the example above, the function returns result. In case you do not define a return value, the function will return None.'''
 
-""" oops concepts 
+# oops concepts 
 
 class Dog:
  
@@ -115,7 +115,7 @@ Tommy = Dog("Tommy")
  
 # Accessing class methods
 Rodger.speak()
-Tommy.speak()"""
+Tommy.speak()
 
 s =  '''mnopqr'''
 i = ''' m '''''

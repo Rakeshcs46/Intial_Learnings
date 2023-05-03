@@ -1,12 +1,12 @@
-""" Installing python Since I have linux distribution python was installed using the terminal  and  python was already
-build in using the command sudo apt update then by a command sudo apt install python3 after the package was installed
-I went back to terminal to check the python version by using the command python3 --version AND  it was 3.8.10
+# """ Installing python Since I have linux distribution python was installed using the terminal  and  python was already
+# build in using the command sudo apt update then by a command sudo apt install python3 after the package was installed
+# I went back to terminal to check the python version by using the command python3 --version AND  it was 3.8.10
 
 # Basics of python
 # Topic 1 Numbers , String , Variables
 print(5*6)
 print(12+10)
- print(8-9)
+print(8-9)
 print(9/3)
 print((8*3)/2)
 print(2**2)
@@ -20,7 +20,7 @@ print("rakesh")
 i = int(input())
 if i%3 == 0:
      i += 1
-     print(i)
+     print(i) 
 else:
  print(i)
 
@@ -36,7 +36,7 @@ print("Exponent of a and b ",a**b);
 print("floor division of a and b ",a//b)
 
 # tuple program
-T = ("a", "b", "c,"e","f","g")
+T = ("a", "b", "c","e","f","g")
 print("\n Created tuple is :",T)
 print("\n Second letter is :",T[1])
 print("\n From 3-6 letters  are :",T[3:6])
@@ -45,14 +45,14 @@ for x in T:
   print(x)
 if "a" in T:
   print("\n Yes, 'a' is in the letter tuple")
-print("\n Length of Tuple is :",len(T)
+print("\n Length of Tuple is :",len(T))
 
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 newlist = []
 for x in fruits:
   if "a" in x:
     newlist.append(x)
-print(newlist)"""
+print(newlist)
 
 
 
@@ -60,7 +60,7 @@ print(newlist)"""
 # Dictories and Lists
 
 
-'''per_value = [900, 342, 542, 190]
+per_value = [900, 342, 542, 190]
 sum(per_value)
 per_value.append(39.99)
 print(per_value)
@@ -80,7 +80,7 @@ my_data["name"]
 my_data = {"name": "Rakesh", "location": "kenegri "}
 my_data[0]
 my_data.keys()
-dict_keys(['name', 'location'])
+my_data(['name', 'location'])
 list(my_data.keys())
 ['name', 'location']
 list(my_data.keys())[0]
@@ -91,7 +91,7 @@ my_data
 {'name': 'Rakesh', 'location': 'kenegri ', 'occ': 'loader'}
 user_1 = {"name": "SRK"}
 user_2 = {"name": "Tony Stark"}
-my_users = [user_1, user_2]'''
+my_users = [user_1, user_2]
 
 for i in range(5):
     print(i, end='' '')

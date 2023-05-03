@@ -1,26 +1,7 @@
 What is “Cloud Computing”?
 Cloud computing has become one of the most discussed IT paradigms of recent years. It builds on many of the advances
 in the IT industry over the past decade and presents significant opportunities for organizations to shorten time to
-market and reduce costs. With cloud computing, organizations can consume shared computing and storage resources
-rather than building, operating, and improving infrastructure on their own. The speed of change in markets creates
-significant pressure on the enterprise IT infrastructure to adapt and deliver. Cloud computing provides fresh solutions to
-address these changes.
-, “Cloud computing is a style of computing where scalable and elastic ITenabled capabilities are delivered as a service to external customers using Internet technologies.
-
-Amazon has a long history of using a decentralized IT infrastructure. This arrangement enabled our development teams
-to access compute and storage resources on demand, and it has increased overall productivity and agility. By 2005,
-Amazon had spent over a decade and millions of dollars building and managing the large-scale, reliable, and efficient IT
-infrastructure that powered one of the world’s largest online retail platforms
-
-
-In the traditional IT organization scalability and elasticity were often equated with investment and infrastructure. In the
-cloud, scalability and elasticity provide opportunity for savings and improved ROI. AWS uses the term elastic to describe
-the ability to scale computing resources up and down easily, with minimal friction. Elasticity helps you avoid provisioning
-resources up front for projects with variable consumption rates or short lifetimes. Instead of acquiring hardware, setting
-it up, and maintaining it in order to allocate resources to your applications, you use AWS to allocate resources using
-simple API calls.
-
-
+m
 
 Imagine what would happen to a traditional IT shop if traffic to an application doubled or tripled in a short period. For
 example, during benefits open enrollment periods, many corporate users generate significant traffic to internal
