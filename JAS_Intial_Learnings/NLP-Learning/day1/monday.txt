@@ -1,0 +1,2 @@
+Today we are going to start with nlp basics and it includes topics such as Text basics So also today i learnt various commands  such as open ,close ,read ,readlines ,write , mode in open , append a+ 
+ well i also learnt about fstring litreal 
