@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/css/bootstrap-select.min.css" />
+     
+    </head>
+    <body>
+       <body>
+            <h1 class="heading" align="center">Ev Tax Credit </h1>
+  
+            <div class="container">
+             ` 
+                <div class="row">
+                            
+                     <div class="col-md-6">
+               
+                         <label>Car Make</label>
+                         <select name="car_make" data-live-search="true" id="car_make" class="form-control" title="Choose Car">
+                         {% for  value  in  carmake %} 
+                         <option value="{{value.make_id}}">{{value.car_make}}</option>
+                          {% endfor %} 
+                         </select>
+                            
+                            
+
+                    </div>
+           
+            
+                </div> 
+                <div class="row">
+                    <div class=" col-md-6">
+                        <label>Car Brand</label>
+                        <select name="car_model" data-live-search="true" id="car_model" class="form-control"  title="Select Model">
+    
+
+                         
+                        
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+               
+                        <label>State</label>
+                        <select name="state" data-live-search="true" id="state" class="form-control" title="Choose State">
+                            <option value="AL">Alabama</option>
+                           
+                         <option value="AK">Alaska</option>
+                           
+                         <option value="AS">American Samoa</option>
+                           
+                         <option value="AZ">Arizona</option>
+                           
+                         <option value="AR">Arkansas</option>
+                           
+                         <option value="CA">California</option>
+                           
+                         <option value="CO">Colorado</option>
+                           
+                         <option value="CT">Connecticut</option>
+                           
+                         <option value="DE">Delware</option>
+                           
+                         <option value="DC">District Of Columbia</option>
+                           
+                         <option value="FM">Federated States Of Micronesia</option>
+                           
+                         <option value="FL">Florida</option>
+                           
+                         <option value="GA">Georgia</option>
+                           
+                         <option value="GU">Guam</option>
+                           
+                         <option value="HI">Hawaii</option>
+                           
+                         <option value="ID">Idaho</option>
+                           
+                         <option value="IL">Illinois</option>
+                           
+                         <option value="IN">Indiana </option>
+                           
+                         <option value="IA">Iowa</option>
+                           
+                         <option value="KS">Kansas</option>
+                           
+                         <option value="KY">Kentucky</option>
+                           
+                         <option value="LA">Louisana</option>
+                           
+                         <option value="ME">Maine</option>
+                           
+                         <option value="MH">Marshall Islands</option>
+                           
+                         <option value="MD">Maryland</option>
+                           
+                         <option value="MA">Massachusetts</option>
+                           
+                         <option value="MI">Michigan</option>
+                           
+                         <option value="MN">Minnesota</option>
+                           
+                         <option value="MS">Mississippi</option>
+                           
+                         <option value="MO">Missouri</option>
+                           
+                         <option value="MT">Montana</option>
+                           
+                         <option value="NE">Nebraska</option>
+                           
+                         <option value="NV">Nevada</option>
+                           
+                         <option value="NH">New Hampshire</option>
+                           
+                         <option value="NJ">New Jersey</option>
+                           
+                         <option value="NM">New Mexico</option>
+                           
+                         <option value="NY">New York</option>
+                           
+                         <option value="NC">North Carolina</option>
+                           
+                         <option value="ND">North Dakota</option>
+                           
+                         <option value="MP">"Northern Mariana Islands"</option>
+                           
+                         <option value="OH">Ohio</option>
+                           
+                         <option value="Ok">Oklahoma</option>
+                           
+                         <option value="OR">Oregeon</option>
+                           
+                         <option value="PW">palau</option>
+                           
+                         <option value="PA">Pennsylvania</option>
+                           
+                         <option value="PR">Puerto Rico</option>
+                           
+                         <option value="RI">Rhode Island</option>
+
+                         <option value="SC">South Carolina</option>
+
+                         <option value="SD">South Dakota</option>
+
+                         <option value="TN">Tennessee</option>
+
+                         <option value="TX">Texas</option>
+
+                         <option value="UT">Utah</option>
+
+                         <option value="VI">Virgin Islands</option>
+
+                         <option value="VA">Virginia</option>
+
+                         <option value="WA">Washington</option>
+
+                         <option value="WV">West Virginia</option>
+
+                         <option value="WI">Wisconsin</option>
+
+                         <option value="WY">Wyoming</option>
+                        </select>
+                        
+
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class=" col-md-6">
+                    <label>Year</label>
+                    <select name="Year" data-live-search="true" id="Year" class="form-control"  title="Select Year">
+
+
+                     
+                    
+                    </select>
+                </div>
+            </div>
+               
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.2/js/bootstrap-select.min.js"></script>
+        
+        <script>
+            $(document).ready(function () {
+                $("#car_make").selectpicker();
+                $("#car_model").selectpicker();
+                $("#state").selectpicker();
+                $("#Year").selectpicker();
+
+                function load_data(type, category_id) {
+                    $.ajax({
+                        url: "/carmodel",
+                        method: "POST",
+                        data: { type: type, category_id: category_id },
+                        dataType: "json",
+                        success: function (data) { 
+                            var html = "";
+                            for (var count = 0; count < data.length; count++) {
+                                html += '<option value="' + data[count].id + '">' + data[count].name + "</option>";
+                            }
+                            if (type == "carData") {
+                                $("#car_make").html(html);
+                                $("#car_brand").selectpicker("refresh");
+                            } else {
+                                $("#car_model").html(html);
+                                $("#car_model").selectpicker("refresh");
+                            }
+                        },
+                    });
+                }
+
+        
+
+                $(document).on("change","#car_make",function () {
+                    var category_id = $("#car_make").val();
+                    load_data("carModeldata",category_id);
+                });
+    
+             
+         });
+        </script>
+        <button type="button" class="btn btn-dark">Calculate</button>
+        <style>
+            .btn-dark {
+            margin-top: 20px;
+            background-color: rgb(43, 146, 214);
+            color: white;
+}
+        </style>
+    </body>
+    
+   
+    <!--Ajax Script for retriving data and from dataset 
+        unable to deduce a correct algorithm using ajax -->
+
+
+          <!--Calculate Ev Tax credit by retriving data from depenedt drop down using ajax -->
+</html>

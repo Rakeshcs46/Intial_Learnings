@@ -1,0 +1,810 @@
+1,1,NSX
+2,1,NSX
+3,2,GCE
+4,2,MLE
+5,3,A3 
+6,3,A3 quattro
+7,3,A4 allroad quattro
+8,3,A4 quattro
+9,3,A4 S line quattro
+10,3,A5 Cabriolet quattro
+11,3,A5 Coupe quattro
+12,3,A5 Sportback quattro
+13,3,A5 Sportback S line quattro
+14,3,A6 Allroad quattro
+15,3,A6 quattro
+16,3,A7 quattro
+17,3,A7 TFSI e quattro
+18,3,A8L quattro
+19,3,e-tron GT
+20,3,e-tron quattro
+21,3,"e-tron S (20"" wheels)"
+22,3,"e-tron S (21"" or 22"" wheels)"
+23,3,e-tron Sportback quattro
+24,3,"e-tron S Sportback (20"" wheels)"
+25,3,"e-tron S Sportback (21"" or 22"" wheels)"
+26,3,Q4 e-tron quattro
+27,3,Q4 e-tron Sportback quattro
+28,3,Q5 quattro
+29,3,Q5 S line quattro
+30,3,Q5 Sportback S line quattro
+31,3,Q5 TFSI e quattro
+32,3,Q7 quattro
+33,3,Q8 quattro
+34,3,RS 6 Avant
+35,3,RS7
+36,3,RS e-tron GT
+37,3,RS Q8
+38,3,S6
+39,3,S7
+40,3,S8
+41,3,A4 allroad quattro
+42,3,A4 quattro
+43,3,A4 S line quattro
+44,3,A5 Cabriolet quattro
+45,3,A5 quattro
+46,3,A5 Sportback quattro
+47,3,A5 Sportback S line quattro
+48,3,A6 Allroad
+49,3,A6 quattro
+50,3,A7 quattro
+51,3,A7 quattro
+52,3,A8L
+53,3,A8L
+54,3,e-tron
+55,3,e-tron Sportback
+56,3,Q5
+57,3,Q5
+58,3,Q5 Sportback
+59,3,Q7
+60,3,Q8
+61,3,RS 6 Avant
+62,3,RS7
+63,3,RS Q8
+64,3,S6
+65,3,S7
+66,3,S8
+67,3,A3 e-tron
+68,3,A3 e-tron
+69,3,A3 e-tron
+70,3,A3 e-tron ultra
+71,3,A7 55 TFSI e quattaro
+72,3,e-tron
+73,3,A8L
+74,3,e-tron Sportsback
+75,3,Q5
+76,4,Transit Connect EV
+77,5,Bentayga Hybrid
+78,5,Flying Spur Hybrid
+79,5,Bentayga
+80,6,330e Sedan
+81,6,330e xDrive
+82,6,530e Sedan
+83,6,530e xDrive Sedan
+84,6,540i Sedan
+85,6,540i xDrive Sedan
+86,6,745e xDrive
+87,6,"i4 eDrive40 Gran Coupe (18"" Wheels)"
+88,6,"i4 eDrive40 Gran Coupe (19"" Wheels)"
+89,6,"i4 M50 Gran Coupe (19"" Wheels)"
+90,6,"i4 M50 Gran Coupe (20"" Wheels)"
+91,6,"iX xDrive50 (20"" Wheels)"
+92,6,"iX xDrive50 (21"" Wheels)"
+93,6,"iX xDrive50 (22"" Wheels)"
+94,6,M340i Sedan
+95,6,M340i xDrive Sedan
+96,6,M440i Convertible
+97,6,M440i Coupe
+98,6,M440i xDrive Convertible
+99,6,M440i xDrive Coupe
+100,6,M440i xDrive Gran Coupe
+101,6,X3 M40i
+102,6,X4 M40i
+103,6,X5 sDrive40i
+104,6,X5 xDrive40i
+105,6,X5 xDrive45e
+106,6,X6 xDrive40i
+107,6,X7 xDrive40i
+108,6,330e
+109,6,330e xDrive
+110,6,530e
+111,6,530e xDrive
+112,6,540i
+113,6,540i xDrive
+114,6,745e xDrive
+115,6,i3
+116,6,i3s
+117,6,i3s with Range Extender
+118,6,i3 with Range Extender
+119,6,M340i
+120,6,M340i xDrive
+121,6,M440i Convertible
+122,6,M440i xDrive Coupe
+123,6,X3 xDrive30e
+124,6,X5 sDrive40i 2WD
+125,6,X5 sDrive40i 4WD
+126,6,X5 xDrive45e
+127,6,X6 sDrive40i 2WD
+128,6,X6 sDrive40i 4WD
+129,6,X7 sDrive40i 4WD
+130,6,330e
+131,6,330e
+132,6,330e
+133,6,530e
+134,6,530e
+135,6,530e xDrive
+136,6,740e
+137,6,740e xDrive
+138,6,750e xDrive
+139,6,i3
+140,6,i3
+141,6,i3
+142,6,i3
+143,6,i3
+144,6,i3
+145,6,i3
+146,6,i3
+147,6,i8
+148,6,i8
+149,6,i8
+150,6,i8
+151,6,i8 Coupe
+152,6,i8 Roadster
+153,6,X3 xDrive30e
+154,6,X5 xDrive40e
+155,6,X5 xDrive40e
+156,6,X5 xDrive40e
+157,7,e6
+158,7,e6
+159,7,e6
+160,7,e6
+161,7,e6
+162,7,e6
+163,8,CT6 Plug-in
+164,8,ELR
+165,8,ELR
+166,9,Lifestyle Deliver Vehicle
+167,9,Lifestyle Vehicle Premium
+168,9,Lifestyle Vehile Adventure
+169,9,Lifestyle Vehicle Base
+170,10,Bolt EUV
+171,10,Bolt EV
+172,10,Blazer
+173,10,Bolt EV
+174,10,Bolt EV
+175,10,Bolt EV
+176,10,Bolt EV
+177,10,Spark
+178,10,Spark
+179,10,Spark
+180,10,Volt
+181,10,Volt
+182,10,Volt
+183,10,Volt
+184,10,Volt
+185,10,Volt
+186,10,Volt
+187,10,Volt
+188,10,Volt
+189,11,Pacifica Hybrid
+190,11,Pacifica Hybrid
+191,11,Pacifica
+192,11,Pacifica
+193,11,Pacifica
+194,11,Pacifica
+195,12,CODA
+196,12,CODA
+197,13,E36 7 Passenger
+198,13,E36t Pick-up Truck
+199,13,E36v Utility Van
+200,14,296 GTB
+201,14,SF90 Stradale
+202,14,SF90 Stradale Coupe
+203,15,500e
+204,15,500e
+205,15,500e
+206,15,500e
+207,15,500e
+208,15,500e
+209,15,500e
+210,16,Karma
+211,17,Escape AWD HEV
+212,17,Escape FWD HEV
+213,17,Escape FWD PHEV
+214,17,Explorer HEV AWD
+215,17,Explorer HEV RWD
+216,17,Explorer Platinum HEV
+217,17,Mustang Mach-E AWD
+218,17,Mustang Mach-E AWD California Route 1
+219,17,Mustang Mach-E AWD Extended
+220,17,Mustang Mach-E GT AWD
+221,17,Mustang Mach-E GT Performance
+222,17,Mustang Mach-E RWD
+223,17,Mustang Mach-E RWD California Route 1
+224,17,Mustang Mach-E RWD Extended
+225,17,Escape AWD HEV
+226,17,Escape FWD HEV
+227,17,Escape FWD PHEV
+228,17,Explorer HEV AWD
+229,17,Explorer HEV RWD
+230,17,Mustang Mach-E AWD
+231,17,Mustang Mach-E AWD Extended
+232,17,Mustang Mach-E GT AWD
+233,17,Mustang Mach-E RWD
+234,17,Mustang Mach-E RWD California Route 1
+235,17,Mustang Mach-E RWD Extended
+236,17,F150 Pickup 2WD HEV
+237,17,F150 Pickup 4WD HEV
+238,17,F150 Lightning 4WD
+239,17,F150 Lightning 4WD Extended Range
+240,17,F150 Lightning Platinum 4WD
+241,17,F150 Pickup 2WD HEV
+242,17,F150 Pickup 4WD HEV
+243,17,Maverick Pickup HEV
+244,17,F150 Pickup 2WD HEV
+245,17,F150 Pickup 4WD HEV
+246,17,F150 Lightning 4WD
+247,17,F150 Lightning 4WD Extended Range
+248,17,F150 Lightning Platinum 4WD
+249,17,F150 Pickup 2WD HEV
+250,17,F150 Pickup 4WD HEV
+251,17,Maverick Pickup HEV
+252,17,C-Max Energi
+253,17,C-Max Energi
+254,17,C-Max Energi
+255,17,C-Max Energi
+256,17,C-Max Energi
+257,17,Escape
+258,17,Focus
+259,17,Focus
+260,17,Focus
+261,17,Focus
+262,17,Focus
+263,17,Focus
+264,17,Focus
+265,17,Fusion Energi
+266,17,Fusion Energi
+267,17,Fusion Energi
+268,17,Fusion Energi
+269,17,Fusion Energi
+270,17,Fusion Energi
+271,17,Fusion Energi
+272,18,Zevo 600
+273,19,EV Star Cargo
+274,20,Accord
+275,20,Accord Sport or Touring
+276,20,CR-V AWD
+277,20,Insight
+278,20,Insight Touring
+279,20,Accord
+280,20,Accord Sport or Touring
+281,20,Clarity PHEV
+282,20,CR-V AWD
+283,20,Insight
+284,20,Insight Touring
+285,20,Accord
+286,20,Clarity
+287,20,Clarity
+288,20,Clarity
+289,20,Clarity
+290,21,Elantra Hybrid
+291,21,Elantra Hybrid Blue
+292,21,Ioniq
+293,21,Ioniq 5 AWD (Long Range)
+294,21,Ioniq 5 RWD
+295,21,Ioniq 5 RWD (Long Range)
+296,21,Ioniq Blue
+297,21,Ioniq Plug-in Hybrid
+298,21,Kona Electric
+299,21,Santa Fe Hybrid
+300,21,Santa Fe Hybrid Blue
+301,21,Santa Fe Plug-in Hybrid
+302,21,Sonata Hybrid
+303,21,Sonata Hybrid Blue
+304,21,Tucson Hybrid
+305,21,Tucson Hybrid Blue
+306,21,Tucson Plug-in Hybrid
+307,21,Elantra Hybrid
+308,21,Elantra Hybrid Blue
+309,21,Ioniq
+310,21,Ioniq Blue
+311,21,Ioniq Electric
+312,21,Ioniq Plug-in Hybrid
+313,21,Kona Electric
+314,21,Santa Fe Hybrid
+315,21,Santa Fe Hybrid Blue
+316,21,Sonata Hybrid
+317,21,Sonata Hybrid Blue
+318,21,Ioniq
+319,21,Ioniq
+320,21,Ioniq
+321,21,Ioniq
+322,21,Ioniq
+323,21,Ioniq
+324,21,Ioniq
+325,21,Kona Electric
+326,21,Kona Electric
+327,21,Sonata
+328,21,Sonata
+329,21,Sonata
+330,21,Sonata
+331,22,E-PACE MHEV
+332,22,F-PACE P340 MHEV
+333,22,F-PACE P400 MHEV
+334,22,E-PACE MHEV
+335,22,F-PACE P340 MHEV
+336,22,F-PACE P400 MHEV
+337,22,I-PACE EV400
+338,22,I-Pace
+339,22,"I-Pace (Hse , Se , S Models)"
+340,23,Grand Cherokee 4xe
+341,23,Wagoneer 4x2
+342,23,Wagoneer 4x4
+343,23,Wrangler 2dr 4x4
+344,23,Wrangler 4dr 4x4
+345,23,Wrangler 4dr 4xe
+346,23,Wrangler 2dr 4x4
+347,23,Wrangler 4dr 4x4
+348,23,Wrangler 4dr 4xe
+349,24,K27
+350,24,Ex3
+351,24,Ex3
+352,24,Ex3
+353,24,K22
+354,24,K23
+355,24,K23
+356,24,K23
+357,24,K27
+358,24,K27
+359,25,"GS-6 (21"" wheels)"
+360,25,"Revero GT (21"" wheels)"
+361,25,"GS-6 (21"" wheels)"
+362,25,"Revero GT (21"" wheels)"
+363,25,"Revero GT (21"" wheels)"
+364,25,"Revero GT (21"" wheels)"
+365,25,"Revero GT (21"" wheels)"
+366,25,"Revero GT (21"" wheels)"
+367,26,EV6 AWD (Long Range)
+368,26,EV6 RWD
+369,26,EV6 RWD (Long Range)
+370,26,Niro
+371,26,Niro Electric
+372,26,Niro FE
+373,26,Niro Plug-in Hybrid
+374,26,Niro Touring
+375,26,Sorento Hybrid AWD
+376,26,Sorento Hybrid FWD
+377,26,Sorento Plug-in Hybrid
+378,26,Niro
+379,26,Niro Electric
+380,26,Niro FE
+381,26,Niro Plug-in Hybrid
+382,26,Niro Touring
+383,26,Sorento Hybrid
+384,26,Niro
+385,26,Niro
+386,26,Optima
+387,26,Optima
+388,26,Optima
+389,26,Optima
+390,26,Soul Electric
+391,26,Soul Electric
+392,26,Soul Electric
+393,26,Soul Electric
+394,26,Soul Electric
+395,26,Soul Electric
+396,26,Sportage
+397,27,Defender 110 MHEV
+398,27,Defender 90 MHEV
+399,27,Discovery MHEV
+400,27,New Range Rover P360 LWB MHEV
+401,27,New Range Rover P360 MHEV
+402,27,New Range Rover P400 LWB MHEV
+403,27,New Range Rover P400 MHEV
+404,27,Range Rover Evoque MHEV
+405,27,Range Rover P360 MHEV
+406,27,Range Rover P400 MHEV
+407,27,Range Rover Sport P360 MHEV
+408,27,Range Rover Sport P400 MHEV
+409,27,Range Rover Sport PHEV
+410,27,Range Rover Velar P340 MHEV
+411,27,Range Rover Velar P400 MHEV
+412,27,Defender 110 MHEV
+413,27,Defender 90 MHEV
+414,27,Discovery MHEV
+415,27,Range Rover MHEV
+416,27,Range Rover PHEV
+417,27,Range Rover Sport MHEV
+418,27,Range Rover Sport PHEV
+419,27,Range Rover Velar P340 MHEV
+420,27,Range Rover Velar P400 MHEV
+421,27,Range Rover (HSE)
+422,27,Range Rover Sport
+423,27,Range Rover Sport
+424,28,ES 300h
+425,28,LC 500h
+426,28,LS 500h AWD
+427,28,NX 350h AWD
+428,28,NX 450+ AWD
+429,28,RX 450h AWD
+430,28,RX 450h L AWD
+431,28,UX 250h
+432,28,UX 250h AWD
+433,28,ES 300h
+434,28,LC 500h
+435,28,LS 500h
+436,28,LS 500h AWD
+437,28,NX 300h AWD
+438,28,RX 450h AWD
+439,28,RX 450h L AWD
+440,28,UX 250h
+441,28,UX 250h AWD
+442,29,Aviator AWD PHEV
+443,29,Corsair AWD PHEV
+444,29,Aviator AWD PHEV
+445,29,Corsair AWD PHEV
+446,29,Corsair AWD PHEV Grand
+447,29,Avaitor Grand Touring
+448,29,Avaitor Grand Touring
+449,30,"Air Dream P AWD w or 19"" wheels"
+450,30,"Air Dream P AWD w or 21"" wheels"
+451,30,"Air Dream R AWD w or 19"" wheels"
+452,30,"Air Dream R AWD w or 21"" wheels"
+453,30,"Air G Touring AWD w or 19"" wheels"
+454,30,"Air G Touring AWD w or 21"" wheels"
+455,31,MX-30
+456,32,Artura
+457,32,Artura
+458,33,AMG E53 4MATIC+ (Convertible)
+459,33,AMG E53 4MATIC+ (Coupe)
+460,33,AMG GLE 53 4MATIC+
+461,33,AMG GLE 53 4MATIC+ (Coupe)
+462,33,AMG GLE 63 4MATIC+
+463,33,AMG GLE 63 S 4MATIC+
+464,33,AMG GLE 63 S 4MATIC+ (coupe)
+465,33,AMG GT 43 4MATIC+
+466,33,AMG GT 53 4MATIC+
+467,33,C 300
+468,33,C 300 4MATIC
+469,33,CLS 450 4MATIC
+470,33,E 450 4MATIC
+471,33,E 450 4MATIC All-Terrain (wagon)
+472,33,E 450 4MATIC (Convertible)
+473,33,E 450 4MATIC (Coupe)
+474,33,E 450 (Convertible)
+475,33,E 450 (Coupe)
+476,33,EQS450+
+477,33,EQS 580 4MATIC
+478,33,GLE 450 4MATIC
+479,33,GLE 580 4MATIC
+480,33,GLS 450 4MATIC
+481,33,GLS 580 4MATIC
+482,33,GLS 600 4MATIC Maybach
+483,33,EQS 500 4MATIC
+484,33,EQS 580 4MATIC
+485,33,EQS 580 4MATIC Maybach
+486,33,AMG CLS 53 4MATIC+
+487,33,AMG E53 4MATIC+
+488,33,AMG E53 4MATIC+ (Convertible)
+489,33,AMG E53 4MATIC+ (Coupe)
+490,33,AMG GLE 53 4MATIC+
+491,33,AMG GLE 53 4MATIC+ Coupe
+492,33,AMG GLE 63 4MATIC+
+493,33,AMG GLE 63 S 4MATIC+ Coupe
+494,33,AMG GLS 63 4MATIC+
+495,33,AMG GT 43 4MATIC+
+496,33,AMG GT 53 4MATIC+
+497,33,CLS 450
+498,33,CLS 450 4MATIC
+499,33,E 450 4MATIC
+500,33,E 450 4MATIC All-Terrain (wagon)
+501,33,E 450 4MATIC (Convertible)
+502,33,E 450 4MATIC (Coupe)
+503,33,E 450 (Convertible)
+504,33,E 450 (Coupe)
+505,33,GLE 450 4MATIC
+506,33,GLE 580 4MATIC
+507,33,GLS 450 4MATIC
+508,33,GLS 580 4MATIC
+509,33,GLS 600 4MATIC Maybach
+510,33,S 500 4MATIC
+511,33,S 580 4MATIC
+512,33,S 580 4MATIC Maybach
+513,33,B-Class
+514,33,B-Class
+515,33,B-Class
+516,33,B-Class
+517,33,C350e
+518,33,C350e
+519,33,C350e
+520,33,EQB300 4Matic
+521,33,EQB350 4Matic
+522,33,GLC350e 4Matic EQ
+523,33,GLC350e 4Matic EQ
+524,33,GLC350e 4Matic
+525,33,S550e
+526,33,S550e
+527,33,S550e
+528,33,S550e EQ
+529,33,AMG E53 4MATIC+
+530,34,Cooper SE Countryman ALL4
+531,34,Cooper SE Hardtop 2 door
+532,34,Cooper SE Countryman ALL4
+533,34,Cooper SE Hardtop 2 door
+534,34,Cooper SE Countryman ALL4
+535,34,Cooper SE Countryman ALL4
+536,34,Cooper SE Hardtop
+537,35,Outlander PHEV
+538,35,Outlander PHEV
+539,35,i-MiEV
+540,35,i-MiEV
+541,35,i-MiEV
+542,35,i-MiEV
+543,35,Outlander PHEV
+544,35,Outlander PHEV
+545,35,Outlander PHEV
+546,36,Leaf (40 kWh battery pack)
+547,36,Leaf (62 kWh battery pack)
+548,36,Leaf SV or SL (62 kWh battery pack)
+549,36,Leaf (40 kWh battery pack)
+550,36,Leaf (62 kWh battery pack)
+551,36,Leaf SV or SL (62 kWh battery pack)
+552,36,Leaf
+553,36,Leaf
+554,36,Leaf
+555,36,Leaf
+556,36,Leaf
+557,36,Leaf
+558,36,Leaf
+559,36,Leaf
+560,36,Leaf
+561,36,Leaf
+562,37,Polestar 1
+563,37,Polestar 2 (Dual Motor)
+564,37,Polestar 2 (Single Motor)
+565,37,Polestar 2
+566,37,Polestar I
+567,38,Cayenne or Coupe or Platinum e-Hybrid
+568,38,Cayenne Turbo S or Coupe e-Hybrid
+569,38,Panamera 4 E-Hybrid Executive
+570,38,Panamera 4S E-Hybrid Executive
+571,38,Panamera Turbo S E-Hybrid Executive or ST
+572,38,Taycan 4 Cross Turismo
+573,38,Taycan 4S Cross Turismo
+574,38,Taycan 4S Perf Battery
+575,38,Taycan 4S Perf Battery Plus
+576,38,Taycan Perf Battery
+577,38,Taycan Perf Battery Plus
+578,38,Taycan Turbo
+579,38,Taycan Turbo Cross Turismo
+580,38,Taycan Turbo S
+581,38,Taycan Turbo S Cross Turismo
+582,38,Cayenne e-Hybrid
+583,38,Cayenne e-Hybrid Coupe
+584,38,Cayenne Turbo S e-Hybrid
+585,38,Cayenne Turbo S e-Hybrid Coupe
+586,38,Panamera 4 E-Hybrid
+587,38,Panamera 4 E-Hybrid Executive
+588,38,Panamera 4 E-Hybrid ST
+589,38,Panamera 4S E-Hybrid
+590,38,Panamera 4S E-Hybrid Executive
+591,38,Panamera 4S E-Hybrid ST
+592,38,Panamera Turbo S E-Hybrid
+593,38,Panamera Turbo S E-Hybrid Executive
+594,38,Panamera Turbo S E-Hybrid ST
+595,38,Taycan 4S Perf Battery
+596,38,Taycan 4S Perf Battery Plus
+597,38,Taycan Perf Battery
+598,38,Taycan Perf Battery Plus
+599,38,Taycan Turbo
+600,38,Taycan Turbo S
+601,38,918 Spyder
+602,38,Cayenne E-Hybrid
+603,38,Cayenne E-Hybrid
+604,38,Cayenne E-Hybrid Coupe
+605,38,Cayenne S E-Hybrid
+606,38,Cayenne S E-Hybrid
+607,38,Cayenne S E-Hybrid
+608,38,Cayenne S E-Hybrid
+609,38,Cayenne S E-Hybrid
+610,38,Cayenne S E-Hybrid Coupe
+611,38,Panamera 4 E-Hybrid
+612,38,Panamera 4 E-Hybrid
+613,38,Panamera 4 E-Hybrid
+614,38,Panamera 4 E-Hybrid Executive
+615,38,Panamera 4 E-Hybrid Executive
+616,38,Panamera 4 E-Hybrid Executive
+617,38,Panamera 4 E-Hybrid Sport Turismo
+618,38,Panamera 4 E-Hybrid Sport Turismo
+619,38,Panamera 4 E-Hybrid Sport Turismo
+620,38,Panamera 4 S E-Hybrid
+621,38,Panamera 4 S E-Hybrid
+622,38,Panamera 4 S E-Hybrid
+623,38,Panamera 4 S E-Hybrid
+624,38,Panamera 4 S E-Hybrid
+625,38,Panamera 4 S E-Hybrid
+626,38,Panamera 4 S E-Hybrid Executive
+627,38,Panamera 4 S E-Hybrid Executive
+628,38,Panamera 4 S E-Hybrid Executive
+629,38,Panamera 4 S E-Hybrid Sport Turismo
+630,38,Panamera 4 S E-Hybrid Sport Turismo
+631,38,Panamera 4 S E-Hybrid Sport Turismo
+632,38,Taycan 4 S
+633,38,Taycan Turbo
+634,38,Taycan Turbo S
+635,39,1500 2WD
+636,39,1500 4WD
+637,39,1500 HFE 4X2
+638,39,1500 4X2
+639,39,1500 4X4
+640,39,1500 HFE 4X2
+641,39,1500 2WD
+642,39,1500 4WD
+643,39,1500 HFE 4X2
+644,39,1500 4X2
+645,39,1500 4X4
+646,39,1500 HFE 4X2
+647,40,R1S
+648,40,R1T
+649,41,Cabrio
+650,41,Cabrio
+651,41,Cabrio
+652,41,Cabrio
+653,41,Coupe EV
+654,41,Coupe EV
+655,41,Coupe EV
+656,41,Coupe EV
+657,41,Coupe EV
+658,41,Coupe EV
+659,41,EQ Fortwo Cabrio
+660,41,EQ Fortwo Coupe
+661,42,Crosstrek Hybrid AWD
+662,42,Crosstek
+663,42,Crosstek
+664,42,Crosstek
+665,42,Crosstek
+666,43,Model 3 (Long Range) AWD
+667,43,Model 3 Performance AWD
+668,43,Model 3 RWD
+669,43,Model S
+670,43,"Model S Plaid (19"" Wheels)"
+671,43,"Model S Plaid (21"" Wheels)"
+672,43,Model X AWD
+673,43,"Model X Plaid (20"" Wheels)"
+674,43,"Model X Plaid (22"" Wheels)"
+675,43,Model Y AWD
+676,43,Model Y (Long Range) AWD
+677,43,Model Y Performance AWD
+678,43,Model Y RWD
+679,43,Model 3 Long Range AWD
+680,43,Model 3 Performance AWD
+681,43,Model 3 Standard Range Plus RWD
+682,43,Model S Long Range
+683,43,"Model S Performance (19"" Wheels)"
+684,43,"Model S Plaid (21"" Wheels)"
+685,43,Model X Long Range Plus
+686,43,"Model X Performance (20"" Wheels)"
+687,43,Model Y Long Range AWD
+688,43,Model Y Performance AWD
+689,43,Model Y Standard Range RWD
+690,43,Model 3 (All Model)
+691,43,Model 3 (All Model)
+692,43,Model 3 (All Model)
+693,43,Model 3 (All Model)
+694,43,Model 2
+695,43,Model 2
+696,43,Model 2
+697,43,Model 2
+698,43,Model 2
+699,43,Model 2
+700,43,Model 2
+701,43,Model 2
+702,43,Model 2
+703,43,Model X
+704,43,Model X
+705,43,Model X
+706,43,Model X
+707,43,Model X
+708,44,City EV
+709,45,Avalon Hybrid
+710,45,Avalon Hybrid XLE
+711,45,Camry Hybrid LE
+712,45,Camry Hybrid SE or XLE or XSE
+713,45,Corolla Hybrid
+714,45,Highlander Hybrid
+715,45,Highlander Hybrid AWD
+716,45,Highlander Hybrid AWD LTD or PLAT
+717,45,Prius
+718,45,Prius AWD
+719,45,Prius Eco
+720,45,Prius Prime
+721,45,RAV4 Hybrid AWD
+722,45,RAV4 Prime AWD
+723,45,Sienna AWD
+724,45,Venza AWD
+725,45,Avalon Hybrid
+726,45,Avalon Hybrid XLE
+727,45,Camry Hybrid LE
+728,45,Camry Hybrid SE or XLE or XSE
+729,45,Corolla Hybrid
+730,45,Highlander Hybrid
+731,45,Highlander Hybrid AWD
+732,45,Highlander Hybrid AWD LTD or PLAT
+733,45,Prius
+734,45,Prius AWD
+735,45,Prius Eco
+736,45,Prius Prime
+737,45,RAV4 Hybrid AWD
+738,45,RAV4 Prime AWD
+739,45,Sienna
+740,45,Sienna AWD
+741,45,Venza AWD
+742,45,TUNDRA 2WD
+743,45,TUNDRA 4WD
+744,45,TUNDRA 4WD PRO
+745,45,TUNDRA 2WD
+746,45,TUNDRA 4WD
+747,45,TUNDRA 4WD PRO
+748,45,Prius
+749,45,Prius
+750,45,Prius
+751,45,Prius
+752,45,Prius Prime
+753,45,Prius Prime
+754,45,Prius Prime
+755,45,Prius Prime
+756,45,RAV4
+757,45,RAV4
+758,45,RAV4
+759,45,RAV4
+760,45,RAV4
+761,46,ID4 AWD Pro
+762,46,e-golf
+763,46,ID4 AWD Pro S
+764,46,ID4 Pro
+765,46,ID4 Pro S
+766,46,ID4 1st
+767,46,ID4 AWD Pro
+768,46,ID4 Pro
+769,46,ID4 Pro S
+770,46,ID4 Pro S AWD
+771,46,e-golf
+772,46,e-golf
+773,46,e-golf
+774,46,e-golf
+775,46,e-golf
+776,46,ID4
+777,47,C40 Recharge Twin
+778,47,S60 T8 AWD Recharge
+779,47,S60 T8 AWD Recharge ext Range
+780,47,S90 T8 AWD Recharge
+781,47,S90 T8 AWD Recharge ext Range
+782,47,V60 T8 AWD Recharge
+783,47,V60 T8 AWD Recharge ext Range
+784,47,XC40 Recharge Twin
+785,47,XC60 T8 AWD Recharge
+786,47,XC60 T8 AWD Recharge ext Range
+787,47,XC90 T8 AWD Recharge
+788,47,XC90 T8 AWD Recharge ext Range
+789,47,S60 AWD
+790,47,S90 AWD
+791,47,V60 AWD
+792,47,XC40 Recharge
+793,47,XC60 AWD
+794,47,XC90 AWD
+795,47,S60
+796,47,S60
+797,47,S90
+798,47,S90
+799,47,S90
+800,47,V60
+801,47,XC40 Extended Range
+802,47,XC60
+803,47,XC60
+804,47,XC60
+805,47,XC90
+806,47,XC90
+807,47,XC90
+808,47,XC90
+809,47,XC90
+810,48,LiFe
